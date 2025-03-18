@@ -1,0 +1,16 @@
+{
+  "name": "logseq-polyrhythmic-theme",
+  "version": "0.0.1",
+  "logseq": {
+    "id": "logseq-polyrhythmic-theme",
+    "title": "Logseq Polyrhythmic Theme",
+    "icon": "logseq.png",
+    "themes": [
+      {
+        "name": "polyrhythmic",
+        "url": "./polyrhythmic.css",
+        "description": "Logseq Polyrhythmic Theme"
+      }
+    ]
+  }
+}
