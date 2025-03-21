@@ -1,15 +1,18 @@
 {
   "name": "logseq-polyrhythmic-theme",
+  "author": "Wonyoung Jang",
+  "description": "Hugo-PolyRhythmic and Material Design theme for Logseq.",
   "version": "0.0.1",
+  "repo": "wonyoung-jang/logseq-polyrhythmic-theme",
   "logseq": {
+    "title": "Logseq PolyRhythmic",
     "id": "logseq-polyrhythmic-theme",
-    "title": "Logseq Polyrhythmic Theme",
-    "icon": "logseq.png",
+    "icon": "./polyrhythmic.svg",
     "themes": [
       {
         "name": "polyrhythmic",
         "url": "./polyrhythmic.css",
-        "description": "Logseq Polyrhythmic Theme"
+        "description": "Logseq Polyrhythmic Theme (dark and light modes)"
       }
     ]
   }

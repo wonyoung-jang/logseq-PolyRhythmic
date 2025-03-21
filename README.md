@@ -1,2 +1,1 @@
-# logseq-polyrhythmic-theme
- logseq-polyrhythmic-theme
+# Logseq PolyRhythmic
