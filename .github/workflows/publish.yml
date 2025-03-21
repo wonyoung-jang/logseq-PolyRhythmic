@@ -7,7 +7,7 @@ on:
       - "*" # Push events to matching any tag format, i.e. 1.0, 20.15.10
 
 env:
-  PLUGIN_NAME: logseq-PoyRhythmic
+  PLUGIN_NAME: logseq-PolyRhythmic
 
 jobs:
   build:
@@ -23,7 +23,7 @@ jobs:
         id: build
         run: |
           mkdir ${{ env.PLUGIN_NAME }}
-          cp README.md package.json polyrhythmic.svg *.css ${{ env.PLUGIN_NAME }}
+          cp README.md package.json polyrhythmic.svg polyrhythmic.css ${{ env.PLUGIN_NAME }}
           zip -r ${{ env.PLUGIN_NAME }}.zip ${{ env.PLUGIN_NAME }}
           ls
           echo "::set-output name=tag_name::$(git tag --sort version:refname | tail -n 1)"
